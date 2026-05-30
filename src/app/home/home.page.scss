@@ -1,0 +1,52 @@
+.dark-content {
+  --background: #0b0e11; 
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05) !important; 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 16px !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.rank-badge {
+  --background: #1e2329;
+  --color: #f0b90b;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.coin-name {
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+}
+
+.coin-symbol {
+  color: #848e9c !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+}
+
+.coin-price {
+  color: #00d2ff !important; // Warna biru cyan estetik
+  font-weight: 800 !important;
+  font-size: 1.1rem !important;
+  margin: 0;
+}
+
+.usd-label {
+  color: #848e9c !important;
+  font-size: 0.7rem !important;
+  margin: 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: #848e9c;
+  margin-top: 50px;
+}
